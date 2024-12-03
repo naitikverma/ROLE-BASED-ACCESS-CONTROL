@@ -1,0 +1,24 @@
+<div class="bar">
+  <nav>
+    
+    <ul>
+      <!-- Home Link -->
+      <li><a href="/">Home</a></li>
+      <!-- Profile Link -->
+      <% if (user) { %>
+        <li><a href="/user/profile">Profile</a></li>
+        <!-- Manage User Link -->
+         <!-- Log Out Link -->
+      <li><a href="/auth/logout">Log Out</a></li>
+      <% } else { %>
+        <!-- Register Link -->
+        <li><a href="/auth/register">Register</a></li>
+        <!-- Log In Link -->
+        <li><a href="/auth/login">Log In</a></li>
+        <% } %>
+      <li><a href="/admin/users">Manage User</a></li>
+      
+    </ul>
+  </nav>
+  <br>
+</div>
