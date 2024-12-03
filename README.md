@@ -41,18 +41,20 @@ Start the MongoDB daemon:
 sudo service mongod start
 ```
 
-Step 5: Start the Application
+## Step 5: Start the Application
 npm start
 The app will run at http://localhost:3000.
 
-Tech Stack
+## Tech Stack
 Backend: Node.js, Express.js
 Authentication: Passport.js (Local Strategy)
 Database: MongoDB with Mongoose ORM
 Frontend: EJS templates, HTML, CSS, JavaScript
 
+## References
+This project was inspired by and includes references from other open-source projects, including ideas and concepts from the repository by Truly Mittal: Role-Based Access Control.
 
-Future Enhancements
+## Future Enhancements
 Add OAuth authentication (Google, Facebook, GitHub, etc.).
 Improve the admin dashboard for better role management.
 Integrate unit and integration tests for improved reliability.
